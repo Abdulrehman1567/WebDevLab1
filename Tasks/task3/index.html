@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - About Me</title>
+    <style>
+        /* Body */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('back.JPG'); /* purana background */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: #222;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        /* Navbar */
+        .Navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: cyan; /* purana navbar color */
+            display: flex;
+            justify-content: center;
+            border-radius: 6px;
+        }
+
+        .Navbar ul li {
+            margin: 0;
+        }
+
+        .Navbar ul li a {
+            display: block;
+            color: darkgreen; /* purana navbar text */
+            padding: 14px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 4px;
+            transition: 0.3s;
+        }
+
+        .Navbar ul li a:hover {
+            background-color: grey;
+            color: white;
+        }
+
+        /* Heading */
+        h1 {
+            background-color: cyan; /* purana heading bg */
+            color: darkblue; /* purana heading text */
+            font-family: Arial, sans-serif;
+            text-align: center;
+            border: 2px solid white;
+            font-size: 40px;
+            padding: 15px;
+            margin: 20px auto;
+            max-width: 900px;
+            border-radius: 6px;
+        }
+
+        /* Stylish Paragraph */
+        p {
+            max-width: 900px;
+            margin: 20px auto;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+            font-size: 18px;
+            line-height: 1.8;
+            letter-spacing: 0.5px;
+            color: #333;
+            text-align: justify;
+            transition: transform 0.3s;
+        }
+
+        p:hover {
+            transform: translateY(-3px);
+        }
+
+        /* Image */
+        img {
+            display: block;
+            margin: 20px auto;
+            max-width: 200px;
+            height: auto;
+            border-radius: 50%;
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 28px;
+            }
+
+            .Navbar ul {
+                flex-direction: column;
+            }
+
+            .Navbar ul li a {
+                padding: 10px;
+            }
+
+            p {
+                font-size: 16px;
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="Navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutus.html">About</a></li>
+            <li><a href="skill.html">Skill</a></li>
+            <li><a href="contacts.html">Contacts</a></li>
+            <li><a href="education.html">Education</a></li>
+        </ul>
+    </div>
+
+    <h1>Welcome to My Home Page</h1>
+
+    <img src="lab3-html-basics/mypic.jpeg" alt="Portrait of khan smiling while coding" width="100">
+
+
+    <p>
+        Hello! My name is Abdul Rehman Khan. I am a passionate learner and aspiring software developer. 
+        I have experience in C++, Python, SQL, and web development using HTML and CSS. I enjoy exploring 
+        new technologies, building projects, and continuously improving my skills. 
+        I am currently pursuing my studies and aim to grow both academically and professionally. 
+        In my free time, I love reading, solving programming challenges, and learning about new innovations 
+        in the tech world.
+    </p>
+</body>
+</html>
